@@ -1,307 +1,409 @@
-('/Users/yu-taaika/PycharmProjects/TimeManagement/build/main/PYZ-00.pyz',
+('C:\\Users\\AIKA YUTA\\Documents\\TimeManagement_App\\build\\main\\PYZ-00.pyz',
  [('os',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/os.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\os.py',
    'PYMODULE'),
   ('subprocess',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/subprocess.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\subprocess.py',
    'PYMODULE'),
   ('selectors',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/selectors.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\selectors.py',
    'PYMODULE'),
   ('contextlib',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\contextlib.py',
    'PYMODULE'),
   ('threading',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\threading.py',
    'PYMODULE'),
   ('_threading_local',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/_threading_local.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\_threading_local.py',
    'PYMODULE'),
   ('signal',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/signal.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\signal.py',
    'PYMODULE'),
   ('_strptime',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/_strptime.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\_strptime.py',
    'PYMODULE'),
   ('datetime',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/datetime.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\datetime.py',
    'PYMODULE'),
   ('calendar',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/calendar.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\calendar.py',
    'PYMODULE'),
   ('argparse',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/argparse.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\argparse.py',
    'PYMODULE'),
   ('textwrap',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/textwrap.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\textwrap.py',
    'PYMODULE'),
   ('shutil',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/shutil.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\shutil.py',
    'PYMODULE'),
   ('zipfile',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/zipfile.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\zipfile.py',
    'PYMODULE'),
   ('py_compile',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/py_compile.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\py_compile.py',
    'PYMODULE'),
   ('importlib.machinery',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/machinery.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\machinery.py',
    'PYMODULE'),
   ('importlib',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\__init__.py',
    'PYMODULE'),
   ('importlib.abc',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/abc.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\abc.py',
    'PYMODULE'),
   ('typing',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/typing.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\typing.py',
    'PYMODULE'),
   ('importlib._abc',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/_abc.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\_abc.py',
    'PYMODULE'),
   ('importlib._bootstrap',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/_bootstrap.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\_bootstrap.py',
    'PYMODULE'),
   ('importlib._bootstrap_external',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/_bootstrap_external.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\_bootstrap_external.py',
    'PYMODULE'),
   ('importlib.metadata',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/metadata/__init__.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\metadata\\__init__.py',
    'PYMODULE'),
   ('importlib.metadata._itertools',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/metadata/_itertools.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\metadata\\_itertools.py',
    'PYMODULE'),
   ('importlib.metadata._functools',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/metadata/_functools.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\metadata\\_functools.py',
    'PYMODULE'),
   ('importlib.metadata._collections',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/metadata/_collections.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\metadata\\_collections.py',
    'PYMODULE'),
   ('importlib.metadata._meta',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/metadata/_meta.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\metadata\\_meta.py',
    'PYMODULE'),
   ('importlib.metadata._adapters',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/metadata/_adapters.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\metadata\\_adapters.py',
    'PYMODULE'),
   ('importlib.metadata._text',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/metadata/_text.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\metadata\\_text.py',
    'PYMODULE'),
   ('email.message',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/message.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\message.py',
    'PYMODULE'),
   ('email.policy',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/policy.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\policy.py',
    'PYMODULE'),
   ('email.contentmanager',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/contentmanager.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\contentmanager.py',
    'PYMODULE'),
   ('email.quoprimime',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/quoprimime.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\quoprimime.py',
    'PYMODULE'),
   ('string',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/string.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\string.py',
    'PYMODULE'),
   ('email.headerregistry',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/headerregistry.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\headerregistry.py',
    'PYMODULE'),
   ('email._header_value_parser',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/_header_value_parser.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\_header_value_parser.py',
    'PYMODULE'),
   ('urllib',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/__init__.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\urllib\\__init__.py',
    'PYMODULE'),
   ('email.iterators',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/iterators.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\iterators.py',
    'PYMODULE'),
   ('email.generator',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/generator.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\generator.py',
    'PYMODULE'),
   ('random',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/random.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\random.py',
    'PYMODULE'),
   ('statistics',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/statistics.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\statistics.py',
    'PYMODULE'),
   ('decimal',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/decimal.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\decimal.py',
    'PYMODULE'),
   ('_pydecimal',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/_pydecimal.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\_pydecimal.py',
    'PYMODULE'),
   ('contextvars',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextvars.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\contextvars.py',
    'PYMODULE'),
   ('fractions',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/fractions.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\fractions.py',
    'PYMODULE'),
   ('numbers',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/numbers.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\numbers.py',
    'PYMODULE'),
   ('hashlib',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/hashlib.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\hashlib.py',
    'PYMODULE'),
   ('logging',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/logging/__init__.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\logging\\__init__.py',
    'PYMODULE'),
   ('pickle',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/pickle.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\pickle.py',
    'PYMODULE'),
   ('pprint',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/pprint.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\pprint.py',
    'PYMODULE'),
   ('dataclasses',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/dataclasses.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\dataclasses.py',
    'PYMODULE'),
   ('inspect',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/inspect.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\inspect.py',
    'PYMODULE'),
   ('token',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/token.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\token.py',
    'PYMODULE'),
   ('dis',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/dis.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\dis.py',
    'PYMODULE'),
   ('opcode',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/opcode.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\opcode.py',
    'PYMODULE'),
   ('ast',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\ast.py',
    'PYMODULE'),
   ('_compat_pickle',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/_compat_pickle.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\_compat_pickle.py',
    'PYMODULE'),
   ('bisect',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/bisect.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\bisect.py',
    'PYMODULE'),
   ('email._encoded_words',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/_encoded_words.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\_encoded_words.py',
    'PYMODULE'),
   ('base64',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/base64.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\base64.py',
    'PYMODULE'),
   ('getopt',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/getopt.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\getopt.py',
    'PYMODULE'),
   ('email.charset',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/charset.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\charset.py',
    'PYMODULE'),
   ('email.encoders',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/encoders.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\encoders.py',
    'PYMODULE'),
   ('email.base64mime',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/base64mime.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\base64mime.py',
    'PYMODULE'),
   ('email._policybase',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/_policybase.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\_policybase.py',
    'PYMODULE'),
   ('email.header',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/header.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\header.py',
    'PYMODULE'),
   ('email.errors',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/errors.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\errors.py',
    'PYMODULE'),
   ('email.utils',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/utils.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\utils.py',
    'PYMODULE'),
   ('email._parseaddr',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/_parseaddr.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\_parseaddr.py',
    'PYMODULE'),
   ('urllib.parse',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/urllib/parse.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\urllib\\parse.py',
    'PYMODULE'),
   ('socket',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\socket.py',
    'PYMODULE'),
   ('quopri',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/quopri.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\quopri.py',
    'PYMODULE'),
   ('uu',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/uu.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\uu.py',
    'PYMODULE'),
   ('optparse',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/optparse.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\optparse.py',
    'PYMODULE'),
   ('email',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/__init__.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\__init__.py',
    'PYMODULE'),
   ('email.parser',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/parser.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\parser.py',
    'PYMODULE'),
   ('email.feedparser',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/email/feedparser.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\email\\feedparser.py',
    'PYMODULE'),
   ('csv',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/csv.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\csv.py',
    'PYMODULE'),
   ('importlib.readers',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/readers.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\readers.py',
    'PYMODULE'),
   ('pathlib',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/pathlib.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\pathlib.py',
    'PYMODULE'),
   ('struct',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/struct.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\struct.py',
    'PYMODULE'),
   ('importlib.util',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/util.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\importlib\\util.py',
    'PYMODULE'),
   ('tarfile',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/tarfile.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tarfile.py',
    'PYMODULE'),
   ('gzip',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/gzip.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\gzip.py',
    'PYMODULE'),
   ('_compression',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/_compression.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\_compression.py',
    'PYMODULE'),
   ('lzma',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/lzma.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\lzma.py',
    'PYMODULE'),
   ('bz2',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/bz2.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\bz2.py',
    'PYMODULE'),
   ('fnmatch',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/fnmatch.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\fnmatch.py',
    'PYMODULE'),
   ('copy',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/copy.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\copy.py',
    'PYMODULE'),
   ('gettext',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/gettext.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\gettext.py',
    'PYMODULE'),
   ('ntpath',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ntpath.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\ntpath.py',
    'PYMODULE'),
   ('genericpath',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/genericpath.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\genericpath.py',
    'PYMODULE'),
   ('posixpath',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/posixpath.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\posixpath.py',
    'PYMODULE'),
   ('stat',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/stat.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\stat.py',
    'PYMODULE'),
   ('stringprep',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/stringprep.py',
-   'PYMODULE'),
-  ('_py_abc',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/_py_abc.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\stringprep.py',
    'PYMODULE'),
   ('tracemalloc',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/tracemalloc.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\_py_abc.py',
    'PYMODULE'),
   ('TimeMnagement_app.gui',
-   '/Users/yu-taaika/PycharmProjects/TimeManagement/TimeMnagement_app/gui.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\Documents\\TimeManagement_App\\TimeMnagement_app\\gui.py',
    'PYMODULE'),
   ('TimeMnagement_app',
-   '/Users/yu-taaika/PycharmProjects/TimeManagement/TimeMnagement_app/__init__.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\Documents\\TimeManagement_App\\TimeMnagement_app\\__init__.py',
    'PYMODULE'),
   ('tkinter.ttk',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/tkinter/ttk.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tkinter\\ttk.py',
    'PYMODULE'),
   ('tkinter',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/tkinter/__init__.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tkinter\\__init__.py',
    'PYMODULE'),
   ('tkinter.constants',
-   '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/tkinter/constants.py',
+   'C:\\Users\\AIKA '
+   'YUTA\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tkinter\\constants.py',
    'PYMODULE')])
