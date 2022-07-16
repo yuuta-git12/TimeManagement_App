@@ -13,6 +13,7 @@ class Gui(tk.Frame):
         master.title(m_title)
         master.geometry(size)
 
+
 # タブ画面　生成用のクラス
 class Gui_tab(tk.Frame):
 
@@ -32,11 +33,17 @@ class Gui_tab(tk.Frame):
         button = ttk.Button(self.tab, text=button_name, command=func, state=state)
         button.place(x=x, y=y)
 
+
 # タブ画面　タイマー部分 生成用のクラス
 class Gui_timer(Gui_tab):
     def __init__(self, master_notebook, tab_name):
         super().__init__(master_notebook, tab_name)
 
+        self.label = None
+        self.exit_btn = None
+        self.reset_btn = None
+        self.stop_btn = None
+        self.start_btn = None
         self.pack()
         self.tmr = 0
         self.after_id = None
@@ -51,24 +58,52 @@ class Gui_timer(Gui_tab):
     # クリック時にResetボタンを無効化
     # クリック時にStartボタンを無効化
     def start(self):
+
+        self.start_btn["state"] = "disabled"
+        self.stop_btn["state"] = "normal"
+        self.reset_btn["state"] = "disabled"
+
         self.tmr = self.tmr + 1
         self.label["text"] = timedelta(seconds=self.tmr)
         self.after_id = self.tab.after(1000, self.start)
-        self.button_ttk("Reset", func=self.reset, x=250, y=160, state="disable")
-        self.button_ttk("Start", func=self.start, x=50, y=160, state="disable")
+
 
     # Stopボタンクリック時の処理
     # クリック時にResetボタンを有効化
     # クリック時にStartボタンを有効化
     def stop(self):
+
+        self.start_btn["state"] = "normal"
+        self.reset_btn["state"] = "normal"
+
         self.tab.after_cancel(self.after_id)
-        self.button_ttk("Reset", func=self.reset, x=250, y=160, state="normal")
-        self.button_ttk("Start", func=self.start, x=50, y=160, state="normal")
+        self.start_btn["state"] = "normal"
+        self.reset_btn["state"] = "normal"
 
     # Resetボタンクリック時の処理
     def reset(self):
         self.tmr = 0
         self.label["text"] = timedelta(seconds=self.tmr)
+
+    # Startボタン生成のメソッド
+    def start_button(self, func, state='normal'):
+        self.start_btn = ttk.Button(self.tab, text='Start', command=func, state=state)
+        self.start_btn.place(x=50, y=160)
+
+    # Stopボタン生成のメソッド
+    def stop_button(self, func, state='disabled'):
+        self.stop_btn = ttk.Button(self.tab, text='Stop', command=func, state=state)
+        self.stop_btn.place(x=150, y=160)
+
+    # Resetボタン生成のメソッド
+    def reset_button(self, func, state='disabled'):
+        self.reset_btn = ttk.Button(self.tab, text='Reset', command=func, state=state)
+        self.reset_btn.place(x=250, y=160)
+
+    # Exitボタン生成のメソッド
+    def exit_button(self, func, state='normal'):
+        self.exit_btn = ttk.Button(self.tab, text='Exit', command=func, state=state)
+        self.exit_btn.place(x=350, y=160)
 
 
 def window1():
@@ -87,33 +122,33 @@ def window1():
     # タブ1の画面構成
     app_tab1.label_ttk(label_name="作業1", font=("MS明朝", 25))
     app_tab1.label_ttk_timer()
-    app_tab1.button_ttk("Start", func=app_tab1.start, x=50, y=160)
-    app_tab1.button_ttk("Stop", func=app_tab1.stop, x=150, y=160)
-    app_tab1.button_ttk("Reset", func=app_tab1.reset, x=250, y=160, state="disable")
-    app_tab1.button_ttk("Exit", func=win1.quit, x=350, y=160)
+    app_tab1.start_button(func=app_tab1.start)
+    app_tab1.stop_button(func=app_tab1.stop)
+    app_tab1.reset_button(func=app_tab1.reset)
+    app_tab1.exit_button(func=win1.quit)
 
     # タブ2の画面構成
     app_tab2.label_ttk(label_name="作業2", font=("MS明朝", 25))
     app_tab2.label_ttk_timer()
-    app_tab2.button_ttk("Start", func=app_tab2.start, x=50, y=160)
-    app_tab2.button_ttk("Stop", func=app_tab2.stop, x=150, y=160)
-    app_tab2.button_ttk("Reset", func=app_tab2.reset, x=250, y=160, state="disable")
-    app_tab2.button_ttk("Exit", func=win1.quit, x=350, y=160)
+    app_tab2.start_button(func=app_tab2.start)
+    app_tab2.stop_button(func=app_tab2.stop)
+    app_tab2.reset_button(func=app_tab2.reset)
+    app_tab2.exit_button(func=win1.quit)
 
     # タブ3の画面構成
     app_tab3.label_ttk(label_name="作業3", font=("MS明朝", 25))
     app_tab3.label_ttk_timer()
-    app_tab3.button_ttk("Start", func=app_tab3.start, x=50, y=160)
-    app_tab3.button_ttk("Stop", func=app_tab3.stop, x=150, y=160)
-    app_tab3.button_ttk("Reset", func=app_tab3.reset, x=250, y=160, state="disable")
-    app_tab3.button_ttk("Exit", func=win1.quit, x=350, y=160)
+    app_tab3.start_button(func=app_tab3.start)
+    app_tab3.stop_button(func=app_tab3.stop)
+    app_tab3.reset_button(func=app_tab3.reset)
+    app_tab3.exit_button(func=win1.quit)
 
     # タブ4の画面構成
     app_tab4.label_ttk(label_name="作業4", font=("MS明朝", 25))
     app_tab4.label_ttk_timer()
-    app_tab4.button_ttk("Start", func=app_tab4.start, x=50, y=160)
-    app_tab4.button_ttk("Stop", func=app_tab4.stop, x=150, y=160)
-    app_tab4.button_ttk("Reset", func=app_tab4.reset, x=250, y=160, state="disable")
-    app_tab4.button_ttk("Exit", func=win1.quit, x=350, y=160)
+    app_tab4.start_button(func=app_tab4.start)
+    app_tab4.stop_button(func=app_tab4.stop)
+    app_tab4.reset_button(func=app_tab4.reset)
+    app_tab4.exit_button(func=win1.quit)
 
     app.mainloop()
